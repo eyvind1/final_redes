@@ -1,0 +1,19 @@
+2018-12-10 19:05:36,283 DEBUG:[setup - server.py, 52] Socket initialization
+2018-12-10 19:05:36,283 INFO:Listening on [127.0.0.1:5050]
+2018-12-10 19:05:36,284 INFO:Waiting for working nodes to connect...
+2018-12-10 19:05:38,477 INFO:[127.0.0.1:39200] Working node connected
+2018-12-10 19:05:38,477 DEBUG:[run - server.py, 64] Starting beginCrawlingProcedure
+2018-12-10 19:05:38,477 DEBUG:[sendConfig - server.py, 216] [127.0.0.1:39200] Sending configuration
+2018-12-10 19:05:38,478 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:39200] Sending 6735 bytes
+2018-12-10 19:05:38,477 INFO:Starting server storageRoutine
+2018-12-10 19:05:38,478 INFO:Starting server urlDispatcher
+2018-12-10 19:05:38,478 INFO:Starting server mainRoutine
+2018-12-10 19:05:38,478 DEBUG:[sendConfig - server.py, 216] [127.0.0.1:39200] Configuration sent waiting for ACK
+2018-12-10 19:05:38,482 DEBUG:[readSocket - server.py, 323] [127.0.0.1:39200] Receiving 129 bytes
+2018-12-10 19:05:38,482 DEBUG:[sendConfig - server.py, 216] [127.0.0.1:39200] Working node ACK received (configuration)
+2018-12-10 19:05:38,482 DEBUG:[inputThread - server.py, 240] [127.0.0.1:39200] Listening for packets
+2018-12-10 19:05:38,482 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:39200] Sending 229 bytes
+2018-12-10 19:05:38,483 DEBUG:[outputThread - server.py, 253] [127.0.0.1:39200] Sending URL http://www.xvideos.com/
+2018-12-10 19:05:39,179 DEBUG:[readSocket - server.py, 323] [127.0.0.1:39200] Receiving 507 bytes
+2018-12-10 19:05:39,243 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:05:39,243 INFO:[127.0.0.1:39200] Skipped (request not allowed - robot parser) : http://www.xvideos.com/

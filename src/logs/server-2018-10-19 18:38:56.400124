@@ -1,0 +1,3 @@
+2018-10-19 18:38:56,400 DEBUG:[setup - server.py, 52] Socket initialization
+2018-10-19 18:38:56,400 INFO:Listening on [127.0.0.1:5050]
+2018-10-19 18:38:56,401 INFO:Waiting for working nodes to connect...

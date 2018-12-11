@@ -1,0 +1,438 @@
+2018-12-10 18:57:19,262 DEBUG:[setup - server.py, 52] Socket initialization
+2018-12-10 18:57:19,262 INFO:Listening on [127.0.0.1:5050]
+2018-12-10 18:57:19,262 INFO:Waiting for working nodes to connect...
+2018-12-10 18:57:23,827 INFO:[127.0.0.1:38714] Working node connected
+2018-12-10 18:57:23,828 DEBUG:[run - server.py, 64] Starting beginCrawlingProcedure
+2018-12-10 18:57:23,828 DEBUG:[sendConfig - server.py, 216] [127.0.0.1:38714] Sending configuration
+2018-12-10 18:57:23,828 INFO:Starting server storageRoutine
+2018-12-10 18:57:23,829 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 6743 bytes
+2018-12-10 18:57:23,828 INFO:Starting server mainRoutine
+2018-12-10 18:57:23,829 INFO:Starting server urlDispatcher
+2018-12-10 18:57:23,829 DEBUG:[sendConfig - server.py, 216] [127.0.0.1:38714] Configuration sent waiting for ACK
+2018-12-10 18:57:23,833 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 129 bytes
+2018-12-10 18:57:23,833 DEBUG:[sendConfig - server.py, 216] [127.0.0.1:38714] Working node ACK received (configuration)
+2018-12-10 18:57:23,834 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 237 bytes
+2018-12-10 18:57:23,834 DEBUG:[inputThread - server.py, 240] [127.0.0.1:38714] Listening for packets
+2018-12-10 18:57:23,834 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL http://www.businessinsider.com/
+2018-12-10 18:57:25,575 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 2623 bytes
+2018-12-10 18:57:25,576 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:25,576 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   33  /    0    -   0  
+2018-12-10 18:57:25,576 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 269 bytes
+2018-12-10 18:57:25,577 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/best-green-monday-sales-2018-12
+2018-12-10 18:57:25,577 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 251 bytes
+2018-12-10 18:57:25,577 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/international
+2018-12-10 18:57:25,577 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 281 bytes
+2018-12-10 18:57:25,578 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/hedge-fund-david-abrams-career-advice-12-18
+2018-12-10 18:57:25,578 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 259 bytes
+2018-12-10 18:57:25,578 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/author/mariana-alfaro
+2018-12-10 18:57:25,578 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 307 bytes
+2018-12-10 18:57:25,579 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/henry-blodget-ignition-keynote-on-better-capitalism-takeaways-2018-12
+2018-12-10 18:57:25,579 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 5376 bytes
+2018-12-10 18:57:25,628 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:25,628 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:25,628 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttp://www.businessinsider.com/
+2018-12-10 18:57:25,639 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 246 bytes
+2018-12-10 18:57:25,640 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com.pl/?IR=C
+2018-12-10 18:57:26,540 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 531 bytes
+2018-12-10 18:57:26,540 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:26,540 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   6   /    33   -   0  
+2018-12-10 18:57:26,580 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 3522 bytes
+2018-12-10 18:57:26,580 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:26,581 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:26,581 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/best-green-monday-sales-2018-12
+2018-12-10 18:57:26,603 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 259 bytes
+2018-12-10 18:57:26,603 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/author/rachel-premack
+2018-12-10 18:57:27,205 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 2565 bytes
+2018-12-10 18:57:27,206 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:27,206 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   31  /    39   -   0  
+2018-12-10 18:57:27,248 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 5325 bytes
+2018-12-10 18:57:27,248 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:27,249 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:27,249 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/international
+2018-12-10 18:57:27,265 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 261 bytes
+2018-12-10 18:57:27,266 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/author/catalina-gonella
+2018-12-10 18:57:27,871 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 373 bytes
+2018-12-10 18:57:27,872 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:27,872 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   3   /    62   -   0  
+2018-12-10 18:57:27,912 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 3376 bytes
+2018-12-10 18:57:27,912 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:27,913 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:27,913 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/hedge-fund-david-abrams-career-advice-12-18
+2018-12-10 18:57:27,928 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 254 bytes
+2018-12-10 18:57:27,928 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/author/gina-heeb
+2018-12-10 18:57:28,451 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 1373 bytes
+2018-12-10 18:57:28,451 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:28,452 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   14  /    63   -   0  
+2018-12-10 18:57:28,492 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 3988 bytes
+2018-12-10 18:57:28,492 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:28,493 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:28,493 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/author/mariana-alfaro
+2018-12-10 18:57:28,500 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 242 bytes
+2018-12-10 18:57:28,500 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com?IR=C
+2018-12-10 18:57:29,124 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 501 bytes
+2018-12-10 18:57:29,124 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:29,124 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   6   /    68   -   0  
+2018-12-10 18:57:29,164 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 3533 bytes
+2018-12-10 18:57:29,164 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:29,165 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:29,165 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/henry-blodget-ignition-keynote-on-better-capitalism-takeaways-2018-12
+2018-12-10 18:57:29,193 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 293 bytes
+2018-12-10 18:57:29,193 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/trump-trade-war-us-companies-pay-record-tariffs-2018-12
+2018-12-10 18:57:34,355 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 182 bytes
+2018-12-10 18:57:34,356 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:34,356 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   0   /    71   -   0  
+2018-12-10 18:57:34,396 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 3678 bytes
+2018-12-10 18:57:34,396 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:34,397 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:34,397 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com.pl/?IR=C
+2018-12-10 18:57:34,400 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 256 bytes
+2018-12-10 18:57:34,400 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/author/amir-ismael
+2018-12-10 18:57:35,146 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 5100 bytes
+2018-12-10 18:57:35,147 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:35,147 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   56  /    71   -   0  
+2018-12-10 18:57:35,188 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 7760 bytes
+2018-12-10 18:57:35,189 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:35,189 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:35,189 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/author/rachel-premack
+2018-12-10 18:57:35,213 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 254 bytes
+2018-12-10 18:57:35,213 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/author/bob-bryan
+2018-12-10 18:57:35,812 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 2337 bytes
+2018-12-10 18:57:35,813 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:35,813 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   27  /   118   -   0  
+2018-12-10 18:57:35,856 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 4968 bytes
+2018-12-10 18:57:35,857 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:35,857 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:35,857 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/author/catalina-gonella
+2018-12-10 18:57:35,876 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 258 bytes
+2018-12-10 18:57:35,876 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/author/graham-rapier
+2018-12-10 18:57:36,498 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 768 bytes
+2018-12-10 18:57:36,498 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:36,498 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   9   /   135   -   0  
+2018-12-10 18:57:36,540 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 3374 bytes
+2018-12-10 18:57:36,540 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:36,541 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:36,541 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/author/gina-heeb
+2018-12-10 18:57:36,568 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 259 bytes
+2018-12-10 18:57:36,569 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/author/matthew-debord
+2018-12-10 18:57:37,198 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 2623 bytes
+2018-12-10 18:57:37,199 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:37,199 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   33  /   136   -   0  
+2018-12-10 18:57:37,240 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 5379 bytes
+2018-12-10 18:57:37,240 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:37,241 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:37,241 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com?IR=C
+2018-12-10 18:57:37,261 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 257 bytes
+2018-12-10 18:57:37,261 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/author/akin-oyedele
+2018-12-10 18:57:38,138 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 1280 bytes
+2018-12-10 18:57:38,139 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:38,139 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   14  /   136   -   0  
+2018-12-10 18:57:38,180 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 4306 bytes
+2018-12-10 18:57:38,181 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:38,181 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:38,181 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/trump-trade-war-us-companies-pay-record-tariffs-2018-12
+2018-12-10 18:57:38,194 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 310 bytes
+2018-12-10 18:57:38,194 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/ubs-report-married-filers-bigger-federal-tax-refund-tax-day-2019-2018-12
+2018-12-10 18:57:38,775 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 4261 bytes
+2018-12-10 18:57:38,775 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:38,775 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   52  /   148   -   0  
+2018-12-10 18:57:38,816 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 6913 bytes
+2018-12-10 18:57:38,816 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:38,817 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:38,817 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/author/amir-ismael
+2018-12-10 18:57:38,827 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 241 bytes
+2018-12-10 18:57:38,827 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com.au/
+2018-12-10 18:57:39,582 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 4940 bytes
+2018-12-10 18:57:39,583 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:39,583 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   51  /   191   -   0  
+2018-12-10 18:57:39,628 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 7589 bytes
+2018-12-10 18:57:39,629 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:39,629 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:39,629 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/author/bob-bryan
+2018-12-10 18:57:39,640 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 313 bytes
+2018-12-10 18:57:39,640 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/stock-market-investing-tips-for-volatility-lori-heinel-state-street-2018-12
+2018-12-10 18:57:40,309 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 5185 bytes
+2018-12-10 18:57:40,310 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:40,310 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   50  /   229   -   0  
+2018-12-10 18:57:40,352 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 7839 bytes
+2018-12-10 18:57:40,353 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:40,353 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:40,353 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/author/graham-rapier
+2018-12-10 18:57:40,363 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 259 bytes
+2018-12-10 18:57:40,363 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/author/abby-narishkin
+2018-12-10 18:57:41,707 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 4446 bytes
+2018-12-10 18:57:41,708 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:41,708 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   50  /   270   -   0  
+2018-12-10 18:57:41,748 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 7096 bytes
+2018-12-10 18:57:41,749 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:41,749 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:41,749 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/author/matthew-debord
+2018-12-10 18:57:41,778 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 255 bytes
+2018-12-10 18:57:41,778 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/author/emma-court
+2018-12-10 18:57:42,338 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 4878 bytes
+2018-12-10 18:57:42,338 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:42,338 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   45  /   311   -   0  
+2018-12-10 18:57:42,380 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 7523 bytes
+2018-12-10 18:57:42,381 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:42,381 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:42,381 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/author/akin-oyedele
+2018-12-10 18:57:42,411 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 307 bytes
+2018-12-10 18:57:42,411 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/youngest-female-broker-diversity-new-york-stock-exchange-nyse-2018-11
+2018-12-10 18:57:44,285 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 1296 bytes
+2018-12-10 18:57:44,285 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:44,285 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   14  /   347   -   0  
+2018-12-10 18:57:44,328 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 4337 bytes
+2018-12-10 18:57:44,328 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:44,329 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:44,329 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/ubs-report-married-filers-bigger-federal-tax-refund-tax-day-2019-2018-12
+2018-12-10 18:57:44,338 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 283 bytes
+2018-12-10 18:57:44,338 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/gilead-new-ceo-daniel-oday-challenges-2018-12
+2018-12-10 18:57:44,493 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 519 bytes
+2018-12-10 18:57:44,493 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:44,493 INFO:[127.0.0.1:38714] Skipped (request not allowed - robot parser) : https://www.businessinsider.com.au/
+2018-12-10 18:57:44,519 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 264 bytes
+2018-12-10 18:57:44,520 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/author/antonio-villas-boas
+2018-12-10 18:57:45,271 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 865 bytes
+2018-12-10 18:57:45,271 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:45,272 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   7   /   359   -   1  
+2018-12-10 18:57:45,312 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 3903 bytes
+2018-12-10 18:57:45,312 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:45,313 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:45,313 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/stock-market-investing-tips-for-volatility-lori-heinel-state-street-2018-12
+2018-12-10 18:57:45,332 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 256 bytes
+2018-12-10 18:57:45,333 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/author/andy-kiersz
+2018-12-10 18:57:46,738 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 5336 bytes
+2018-12-10 18:57:46,739 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:46,739 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   71  /   359   -   1  
+2018-12-10 18:57:46,780 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 8013 bytes
+2018-12-10 18:57:46,781 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:46,781 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:46,781 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/author/abby-narishkin
+2018-12-10 18:57:46,808 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 259 bytes
+2018-12-10 18:57:46,808 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/author/bradley-saacks
+2018-12-10 18:57:47,455 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 1251 bytes
+2018-12-10 18:57:47,455 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:47,455 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   14  /   420   -   1  
+2018-12-10 18:57:47,496 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 3862 bytes
+2018-12-10 18:57:47,497 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:47,497 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:47,497 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/author/emma-court
+2018-12-10 18:57:47,501 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 307 bytes
+2018-12-10 18:57:47,501 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/next-trump-white-house-chief-of-staff-john-kelly-replacements-2018-12
+2018-12-10 18:57:48,937 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 683 bytes
+2018-12-10 18:57:48,937 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:48,937 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   8   /   425   -   1  
+2018-12-10 18:57:48,980 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 3718 bytes
+2018-12-10 18:57:48,980 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:48,981 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:48,981 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/youngest-female-broker-diversity-new-york-stock-exchange-nyse-2018-11
+2018-12-10 18:57:49,006 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 297 bytes
+2018-12-10 18:57:49,007 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/ceo-pay-vs-typical-worker-amazon-mcdonalds-facebook-2018-12
+2018-12-10 18:57:49,710 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 719 bytes
+2018-12-10 18:57:49,710 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:49,711 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   6   /   431   -   1  
+2018-12-10 18:57:49,752 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 3727 bytes
+2018-12-10 18:57:49,752 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:49,753 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:49,753 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/gilead-new-ceo-daniel-oday-challenges-2018-12
+2018-12-10 18:57:49,760 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 287 bytes
+2018-12-10 18:57:49,760 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/fast-food-raise-wages-find-more-employees-2018-11
+2018-12-10 18:57:50,608 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 4537 bytes
+2018-12-10 18:57:50,609 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:50,609 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   49  /   435   -   1  
+2018-12-10 18:57:50,652 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 7195 bytes
+2018-12-10 18:57:50,653 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:50,653 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:50,653 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/author/antonio-villas-boas
+2018-12-10 18:57:50,663 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 312 bytes
+2018-12-10 18:57:50,664 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/lyft-may-be-worth-20-billion-how-to-value-the-company-ahead-of-ipo-2018-12
+2018-12-10 18:57:52,033 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 4735 bytes
+2018-12-10 18:57:52,034 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:52,034 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   58  /   475   -   1  
+2018-12-10 18:57:52,076 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 7393 bytes
+2018-12-10 18:57:52,077 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:52,077 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:52,077 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/author/andy-kiersz
+2018-12-10 18:57:52,080 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 255 bytes
+2018-12-10 18:57:52,080 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/better-capitalism
+2018-12-10 18:57:52,567 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 1231 bytes
+2018-12-10 18:57:52,567 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:52,567 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   14  /   522   -   1  
+2018-12-10 18:57:52,608 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 3846 bytes
+2018-12-10 18:57:52,609 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:52,609 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:52,609 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/author/bradley-saacks
+2018-12-10 18:57:52,623 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 309 bytes
+2018-12-10 18:57:52,624 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/huawei-smartphones-are-popular-all-over-world-not-united-states-2018-12
+2018-12-10 18:57:54,228 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 484 bytes
+2018-12-10 18:57:54,228 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:54,228 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   4   /   526   -   1  
+2018-12-10 18:57:54,268 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 3514 bytes
+2018-12-10 18:57:54,268 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:54,269 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:54,269 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/next-trump-white-house-chief-of-staff-john-kelly-replacements-2018-12
+2018-12-10 18:57:54,281 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 288 bytes
+2018-12-10 18:57:54,281 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/porsche-911-cup-holder-great-piece-engineer-2016-8
+2018-12-10 18:57:55,123 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 492 bytes
+2018-12-10 18:57:55,123 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:55,124 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   5   /   528   -   1  
+2018-12-10 18:57:55,164 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 3512 bytes
+2018-12-10 18:57:55,165 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:55,165 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:55,165 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/ceo-pay-vs-typical-worker-amazon-mcdonalds-facebook-2018-12
+2018-12-10 18:57:55,184 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 270 bytes
+2018-12-10 18:57:55,185 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/category/black-friday-2018-deals
+2018-12-10 18:57:55,839 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 866 bytes
+2018-12-10 18:57:55,840 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:55,840 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   9   /   529   -   1  
+2018-12-10 18:57:55,880 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 3880 bytes
+2018-12-10 18:57:55,881 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:55,881 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:55,881 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/fast-food-raise-wages-find-more-employees-2018-11
+2018-12-10 18:57:55,907 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 249 bytes
+2018-12-10 18:57:55,908 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL http://www.businessinsider.com/insiderpicks
+2018-12-10 18:57:56,694 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 1252 bytes
+2018-12-10 18:57:56,694 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:56,694 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   13  /   535   -   1  
+2018-12-10 18:57:56,736 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 4296 bytes
+2018-12-10 18:57:56,737 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:56,737 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:56,737 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/lyft-may-be-worth-20-billion-how-to-value-the-company-ahead-of-ipo-2018-12
+2018-12-10 18:57:56,752 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 250 bytes
+2018-12-10 18:57:56,752 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL http://www.businessinsider.com/international
+2018-12-10 18:57:57,192 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 2692 bytes
+2018-12-10 18:57:57,193 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:57,193 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   33  /   543   -   1  
+2018-12-10 18:57:57,236 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 5698 bytes
+2018-12-10 18:57:57,237 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:57,237 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:57,237 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/better-capitalism
+2018-12-10 18:57:57,264 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 242 bytes
+2018-12-10 18:57:57,265 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL http://www.businessinsider.com/?IR=C
+2018-12-10 18:57:57,915 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 1636 bytes
+2018-12-10 18:57:57,915 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:57,915 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   18  /   569   -   1  
+2018-12-10 18:57:57,956 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 4678 bytes
+2018-12-10 18:57:57,956 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:57,957 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:57,957 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/huawei-smartphones-are-popular-all-over-world-not-united-states-2018-12
+2018-12-10 18:57:57,958 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 262 bytes
+2018-12-10 18:57:57,958 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/category/gift-guide-2018
+2018-12-10 18:57:58,698 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 524 bytes
+2018-12-10 18:57:58,699 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:58,699 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   5   /   584   -   1  
+2018-12-10 18:57:58,740 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 3533 bytes
+2018-12-10 18:57:58,740 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:58,741 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 270 bytes
+2018-12-10 18:57:58,741 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/category/cyber-monday-2018-deals
+2018-12-10 18:57:58,741 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:58,741 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/porsche-911-cup-holder-great-piece-engineer-2016-8
+2018-12-10 18:57:59,389 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 4723 bytes
+2018-12-10 18:57:59,389 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:59,389 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   57  /   587   -   1  
+2018-12-10 18:57:59,432 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 7397 bytes
+2018-12-10 18:57:59,433 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:57:59,433 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:57:59,433 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/category/black-friday-2018-deals
+2018-12-10 18:57:59,433 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 256 bytes
+2018-12-10 18:57:59,433 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/author/alan-dawson
+2018-12-10 18:58:00,225 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 3083 bytes
+2018-12-10 18:58:00,226 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:00,226 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   42  /   623   -   1  
+2018-12-10 18:58:00,268 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 5851 bytes
+2018-12-10 18:58:00,269 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:00,269 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:58:00,269 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttp://www.businessinsider.com/insiderpicks
+2018-12-10 18:58:00,276 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 292 bytes
+2018-12-10 18:58:00,276 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/google-plus-early-shut-down-second-data-breach-2018-12
+2018-12-10 18:58:01,125 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 2565 bytes
+2018-12-10 18:58:01,125 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:01,126 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   31  /   648   -   1  
+2018-12-10 18:58:01,168 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 5323 bytes
+2018-12-10 18:58:01,169 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:01,169 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:58:01,169 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttp://www.businessinsider.com/international
+2018-12-10 18:58:01,180 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 258 bytes
+2018-12-10 18:58:01,180 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/author/mark-matousek
+2018-12-10 18:58:01,945 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 2623 bytes
+2018-12-10 18:58:01,946 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:01,946 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   33  /   648   -   1  
+2018-12-10 18:58:01,988 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 5378 bytes
+2018-12-10 18:58:01,989 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:01,989 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:58:01,989 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttp://www.businessinsider.com/?IR=C
+2018-12-10 18:58:01,993 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 285 bytes
+2018-12-10 18:58:01,993 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/elon-musk-reveals-teslas-alternate-name-2018-12
+2018-12-10 18:58:03,119 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 4194 bytes
+2018-12-10 18:58:03,119 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:03,119 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   58  /   648   -   1  
+2018-12-10 18:58:03,160 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 6856 bytes
+2018-12-10 18:58:03,161 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:03,161 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:58:03,161 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/category/gift-guide-2018
+2018-12-10 18:58:03,167 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 305 bytes
+2018-12-10 18:58:03,167 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/theresa-may-delay-brexit-vote-amid-fears-of-crushing-defeat-2018-12
+2018-12-10 18:58:03,796 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 4732 bytes
+2018-12-10 18:58:03,796 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:03,796 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   58  /   683   -   1  
+2018-12-10 18:58:03,840 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 7409 bytes
+2018-12-10 18:58:03,841 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:03,841 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:58:03,841 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/category/cyber-monday-2018-deals
+2018-12-10 18:58:03,860 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 284 bytes
+2018-12-10 18:58:03,860 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/time-person-of-the-year-2018-shortlist-2018-12
+2018-12-10 18:58:05,262 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 5341 bytes
+2018-12-10 18:58:05,262 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:05,262 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   52  /   706   -   1  
+2018-12-10 18:58:05,304 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 7994 bytes
+2018-12-10 18:58:05,305 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:05,305 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:58:05,305 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/author/alan-dawson
+2018-12-10 18:58:05,335 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 299 bytes
+2018-12-10 18:58:05,335 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/the-uk-can-unilaterally-reverse-brexit-rules-eu-court-2018-12
+2018-12-10 18:58:05,985 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 454 bytes
+2018-12-10 18:58:05,985 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:05,985 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   4   /   749   -   1  
+2018-12-10 18:58:06,028 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 3465 bytes
+2018-12-10 18:58:06,029 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:06,029 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:58:06,029 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/google-plus-early-shut-down-second-data-breach-2018-12
+2018-12-10 18:58:06,058 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 308 bytes
+2018-12-10 18:58:06,058 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/blippar-collapse-administration-attempts-to-sell-the-firm-snap-2018-12
+2018-12-10 18:58:06,664 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 5087 bytes
+2018-12-10 18:58:06,665 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:06,665 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   55  /   751   -   1  
+2018-12-10 18:58:06,708 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 7744 bytes
+2018-12-10 18:58:06,709 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:06,709 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:58:06,709 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/author/mark-matousek
+2018-12-10 18:58:06,721 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 259 bytes
+2018-12-10 18:58:06,721 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/author/ashley-collman
+2018-12-10 18:58:07,378 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 702 bytes
+2018-12-10 18:58:07,379 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:07,379 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   8   /   794   -   1  
+2018-12-10 18:58:07,420 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 3715 bytes
+2018-12-10 18:58:07,420 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:07,421 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:58:07,421 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/elon-musk-reveals-teslas-alternate-name-2018-12
+2018-12-10 18:58:07,444 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 283 bytes
+2018-12-10 18:58:07,444 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/elon-musk-breaks-tesla-autopilot-rule-2018-12
+2018-12-10 18:58:08,174 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 386 bytes
+2018-12-10 18:58:08,174 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:08,174 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   3   /   799   -   1  
+2018-12-10 18:58:08,216 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 3410 bytes
+2018-12-10 18:58:08,216 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:08,216 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:58:08,217 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/theresa-may-delay-brexit-vote-amid-fears-of-crushing-defeat-2018-12
+2018-12-10 18:58:08,227 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 300 bytes
+2018-12-10 18:58:08,227 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/alexis-ohanian-reddit-cofounder-future-technology-jobs-2018-12
+2018-12-10 18:58:08,965 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 616 bytes
+2018-12-10 18:58:08,965 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:08,965 INFO:[127.0.0.1:38714] Receiving scrapped URLs :   5   /   800   -   1  
+2018-12-10 18:58:09,008 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38714] Receiving 3627 bytes
+2018-12-10 18:58:09,008 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 18:58:09,009 INFO:[127.0.0.1:38714] Receiving scrapped data
+2018-12-10 18:58:09,009 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38714] Receiving scrapped datahttps://www.businessinsider.com/time-person-of-the-year-2018-shortlist-2018-12
+2018-12-10 18:58:09,010 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38714] Sending 255 bytes
+2018-12-10 18:58:09,010 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38714] Sending URL https://www.businessinsider.com/author/adam-payne
+2018-12-10 18:58:09,647 INFO:[127.0.0.1:38714] Lost connection
+2018-12-10 18:58:09,785 INFO:[127.0.0.1:38714] Disconnecting

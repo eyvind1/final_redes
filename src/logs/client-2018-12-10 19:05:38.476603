@@ -1,0 +1,33 @@
+2018-12-10 19:05:38,476 DEBUG:[connect - client.py, 44] Socket initialization
+2018-12-10 19:05:38,476 DEBUG:[connect - client.py, 44] Connecting to host... [127.0.0.1:5050]
+2018-12-10 19:05:38,477 INFO:Connected to [127.0.0.1:5050]
+2018-12-10 19:05:38,477 DEBUG:[readConfig - client.py, 66] Waiting for configuration from the server.
+2018-12-10 19:05:38,478 DEBUG:[readSocket - client.py, 270] Receiving 6719 bytes from server
+2018-12-10 19:05:38,478 DEBUG:[readConfig - client.py, 66] Configuration received.
+2018-12-10 19:05:38,478 INFO:Importing rule.py from server
+2018-12-10 19:05:38,478 INFO:Importing scrapping.py from server
+2018-12-10 19:05:38,480 INFO:Reloading modules imported for server
+2018-12-10 19:05:38,481 DEBUG:[writeSocket - client.py, 259] Sending 145 bytes to server
+2018-12-10 19:05:38,481 DEBUG:[readConfig - client.py, 66] Sending ACK for configuration.
+2018-12-10 19:05:38,482 INFO:
+
+Starting Crawling/Scrapping sequence...
+2018-12-10 19:05:38,482 DEBUG:[outputThread - client.py, 163] OutputThread started
+2018-12-10 19:05:38,482 DEBUG:[crawlingThread - client.py, 199] CrawlingThread started
+2018-12-10 19:05:38,482 DEBUG:[inputThread - client.py, 147] InputThread started
+2018-12-10 19:05:38,482 DEBUG:[interpretingThread - client.py, 178] InterpretingThread started
+2018-12-10 19:05:38,483 DEBUG:[readSocket - client.py, 270] Receiving 213 bytes from server
+2018-12-10 19:05:38,483 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.xvideos.com/
+2018-12-10 19:05:38,483 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:05:38,683 INFO:Scrapping : http://www.xvideos.com/
+2018-12-10 19:05:39,178 INFO:Scrapping failed - RobotParser
+2018-12-10 19:05:39,178 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.xvideos.com/
+Code : -2
+Request time : 0
+Bs time : 
+2018-12-10 19:05:39,179 INFO:Skipping URL : http://www.xvideos.com/
+2018-12-10 19:05:39,179 DEBUG:[writeSocket - client.py, 259] Sending 523 bytes to server
+2018-12-10 19:05:39,179 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:06:01,803 INFO:
+Lost connection to server [127.0.0.1:5050]

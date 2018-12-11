@@ -1,0 +1,289 @@
+2018-12-10 19:56:06,058 DEBUG:[connect - client.py, 44] Socket initialization
+2018-12-10 19:56:06,059 DEBUG:[connect - client.py, 44] Connecting to host... [127.0.0.1:5050]
+2018-12-10 19:56:06,059 INFO:Connected to [127.0.0.1:5050]
+2018-12-10 19:56:06,059 DEBUG:[readConfig - client.py, 66] Waiting for configuration from the server.
+2018-12-10 19:56:06,061 DEBUG:[readSocket - client.py, 270] Receiving 6727 bytes from server
+2018-12-10 19:56:06,061 DEBUG:[readConfig - client.py, 66] Configuration received.
+2018-12-10 19:56:06,061 INFO:Importing rule.py from server
+2018-12-10 19:56:06,061 INFO:Importing scrapping.py from server
+2018-12-10 19:56:06,063 INFO:Reloading modules imported for server
+2018-12-10 19:56:06,064 DEBUG:[writeSocket - client.py, 259] Sending 145 bytes to server
+2018-12-10 19:56:06,064 DEBUG:[readConfig - client.py, 66] Sending ACK for configuration.
+2018-12-10 19:56:06,064 INFO:
+
+Starting Crawling/Scrapping sequence...
+2018-12-10 19:56:06,065 DEBUG:[inputThread - client.py, 147] InputThread started
+2018-12-10 19:56:06,065 DEBUG:[outputThread - client.py, 163] OutputThread started
+2018-12-10 19:56:06,065 DEBUG:[crawlingThread - client.py, 199] CrawlingThread started
+2018-12-10 19:56:06,065 DEBUG:[interpretingThread - client.py, 178] InterpretingThread started
+2018-12-10 19:56:06,065 DEBUG:[readSocket - client.py, 270] Receiving 221 bytes from server
+2018-12-10 19:56:06,066 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.businessinsider.com/
+2018-12-10 19:56:06,066 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:06,266 INFO:Scrapping : http://www.businessinsider.com/
+2018-12-10 19:56:08,520 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-12-10 19:56:08,520 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.businessinsider.com/
+Code : 200
+Request time : 1.13081002235
+Bs time : 0.290931940079
+2018-12-10 19:56:08,521 DEBUG:[writeSocket - client.py, 259] Sending 2639 bytes to server
+2018-12-10 19:56:08,521 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:08,521 DEBUG:[writeSocket - client.py, 259] Sending 5388 bytes to server
+2018-12-10 19:56:08,521 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:08,523 DEBUG:[readSocket - client.py, 270] Receiving 253 bytes from server
+2018-12-10 19:56:08,523 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com/best-green-monday-sales-2018-12
+2018-12-10 19:56:08,523 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:08,526 DEBUG:[readSocket - client.py, 270] Receiving 235 bytes from server
+2018-12-10 19:56:08,526 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com/international
+2018-12-10 19:56:08,527 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:08,528 DEBUG:[readSocket - client.py, 270] Receiving 265 bytes from server
+2018-12-10 19:56:08,529 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com/hedge-fund-david-abrams-career-advice-12-18
+2018-12-10 19:56:08,529 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:08,529 DEBUG:[readSocket - client.py, 270] Receiving 243 bytes from server
+2018-12-10 19:56:08,529 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com/author/mariana-alfaro
+2018-12-10 19:56:08,529 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:08,530 DEBUG:[readSocket - client.py, 270] Receiving 291 bytes from server
+2018-12-10 19:56:08,530 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com/henry-blodget-ignition-keynote-on-better-capitalism-takeaways-2018-12
+2018-12-10 19:56:08,530 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:08,592 DEBUG:[readSocket - client.py, 270] Receiving 230 bytes from server
+2018-12-10 19:56:08,593 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com.pl/?IR=C
+2018-12-10 19:56:08,593 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:08,721 INFO:Scrapping : https://www.businessinsider.com/best-green-monday-sales-2018-12
+2018-12-10 19:56:09,506 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-12-10 19:56:09,507 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.businessinsider.com/best-green-monday-sales-2018-12
+Code : 200
+Request time : 0.385040044785
+Bs time : 0.399314165115
+2018-12-10 19:56:09,507 INFO:Scrapping : https://www.businessinsider.com/international
+2018-12-10 19:56:09,507 DEBUG:[writeSocket - client.py, 259] Sending 547 bytes to server
+2018-12-10 19:56:09,508 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:09,508 DEBUG:[writeSocket - client.py, 259] Sending 3539 bytes to server
+2018-12-10 19:56:09,508 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:09,560 DEBUG:[readSocket - client.py, 270] Receiving 243 bytes from server
+2018-12-10 19:56:09,560 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com/author/rachel-premack
+2018-12-10 19:56:09,560 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:10,530 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-12-10 19:56:10,530 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.businessinsider.com/international
+Code : 200
+Request time : 0.694739103317
+Bs time : 0.327033042908
+2018-12-10 19:56:10,531 DEBUG:[writeSocket - client.py, 259] Sending 2581 bytes to server
+2018-12-10 19:56:10,531 INFO:Scrapping : https://www.businessinsider.com/hedge-fund-david-abrams-career-advice-12-18
+2018-12-10 19:56:10,531 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:10,532 DEBUG:[writeSocket - client.py, 259] Sending 5339 bytes to server
+2018-12-10 19:56:10,532 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:10,592 DEBUG:[readSocket - client.py, 270] Receiving 245 bytes from server
+2018-12-10 19:56:10,592 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com/author/catalina-gonella
+2018-12-10 19:56:10,592 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:11,205 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-12-10 19:56:11,205 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.businessinsider.com/hedge-fund-david-abrams-career-advice-12-18
+Code : 200
+Request time : 0.369085073471
+Bs time : 0.303679943085
+2018-12-10 19:56:11,205 DEBUG:[writeSocket - client.py, 259] Sending 389 bytes to server
+2018-12-10 19:56:11,205 INFO:Scrapping : https://www.businessinsider.com/author/mariana-alfaro
+2018-12-10 19:56:11,206 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:11,207 DEBUG:[writeSocket - client.py, 259] Sending 3392 bytes to server
+2018-12-10 19:56:11,207 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:11,259 DEBUG:[readSocket - client.py, 270] Receiving 238 bytes from server
+2018-12-10 19:56:11,259 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com/author/gina-heeb
+2018-12-10 19:56:11,260 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:11,774 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-12-10 19:56:11,774 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.businessinsider.com/author/mariana-alfaro
+Code : 200
+Request time : 0.36772608757
+Bs time : 0.199883937836
+2018-12-10 19:56:11,775 DEBUG:[writeSocket - client.py, 259] Sending 1389 bytes to server
+2018-12-10 19:56:11,775 INFO:Scrapping : https://www.businessinsider.com/henry-blodget-ignition-keynote-on-better-capitalism-takeaways-2018-12
+2018-12-10 19:56:11,775 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:11,776 DEBUG:[writeSocket - client.py, 259] Sending 4005 bytes to server
+2018-12-10 19:56:11,776 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:11,835 DEBUG:[readSocket - client.py, 270] Receiving 226 bytes from server
+2018-12-10 19:56:11,836 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com?IR=C
+2018-12-10 19:56:11,836 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:12,469 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-12-10 19:56:12,470 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.businessinsider.com/henry-blodget-ignition-keynote-on-better-capitalism-takeaways-2018-12
+Code : 200
+Request time : 0.393018007278
+Bs time : 0.300447940826
+2018-12-10 19:56:12,470 DEBUG:[writeSocket - client.py, 259] Sending 517 bytes to server
+2018-12-10 19:56:12,470 INFO:Scrapping : https://www.businessinsider.com.pl/?IR=C
+2018-12-10 19:56:12,470 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:12,471 DEBUG:[writeSocket - client.py, 259] Sending 3545 bytes to server
+2018-12-10 19:56:12,471 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:12,533 DEBUG:[readSocket - client.py, 270] Receiving 277 bytes from server
+2018-12-10 19:56:12,533 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com/trump-trade-war-us-companies-pay-record-tariffs-2018-12
+2018-12-10 19:56:12,533 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:19,239 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-12-10 19:56:19,240 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.businessinsider.com.pl/?IR=C
+Code : 200
+Request time : 2.40164399147
+Bs time : 0.98840379715
+2018-12-10 19:56:19,240 DEBUG:[writeSocket - client.py, 259] Sending 198 bytes to server
+2018-12-10 19:56:19,240 INFO:Scrapping : https://www.businessinsider.com/author/rachel-premack
+2018-12-10 19:56:19,240 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:19,241 DEBUG:[writeSocket - client.py, 259] Sending 3693 bytes to server
+2018-12-10 19:56:19,241 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:19,300 DEBUG:[readSocket - client.py, 270] Receiving 240 bytes from server
+2018-12-10 19:56:19,300 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com/author/amir-ismael
+2018-12-10 19:56:19,300 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:19,952 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-12-10 19:56:19,952 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.businessinsider.com/author/rachel-premack
+Code : 200
+Request time : 0.374686002731
+Bs time : 0.334738969803
+2018-12-10 19:56:19,952 DEBUG:[writeSocket - client.py, 259] Sending 5116 bytes to server
+2018-12-10 19:56:19,953 INFO:Scrapping : https://www.businessinsider.com/author/catalina-gonella
+2018-12-10 19:56:19,953 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:19,954 DEBUG:[writeSocket - client.py, 259] Sending 7776 bytes to server
+2018-12-10 19:56:19,954 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:20,025 DEBUG:[readSocket - client.py, 270] Receiving 238 bytes from server
+2018-12-10 19:56:20,025 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com/author/bob-bryan
+2018-12-10 19:56:20,025 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:20,550 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-12-10 19:56:20,551 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.businessinsider.com/author/catalina-gonella
+Code : 200
+Request time : 0.36896109581
+Bs time : 0.227194070816
+2018-12-10 19:56:20,551 DEBUG:[writeSocket - client.py, 259] Sending 2353 bytes to server
+2018-12-10 19:56:20,551 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:20,551 INFO:Scrapping : https://www.businessinsider.com/author/gina-heeb
+2018-12-10 19:56:20,552 DEBUG:[writeSocket - client.py, 259] Sending 4983 bytes to server
+2018-12-10 19:56:20,552 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:20,601 DEBUG:[readSocket - client.py, 270] Receiving 242 bytes from server
+2018-12-10 19:56:20,601 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com/author/graham-rapier
+2018-12-10 19:56:20,601 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:21,298 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-12-10 19:56:21,299 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.businessinsider.com/author/gina-heeb
+Code : 200
+Request time : 0.409687042236
+Bs time : 0.335130929947
+2018-12-10 19:56:21,299 DEBUG:[writeSocket - client.py, 259] Sending 784 bytes to server
+2018-12-10 19:56:21,299 INFO:Scrapping : https://www.businessinsider.com?IR=C
+2018-12-10 19:56:21,299 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:21,300 DEBUG:[writeSocket - client.py, 259] Sending 3392 bytes to server
+2018-12-10 19:56:21,300 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:21,358 DEBUG:[readSocket - client.py, 270] Receiving 243 bytes from server
+2018-12-10 19:56:21,358 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com/author/matthew-debord
+2018-12-10 19:56:21,358 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:22,031 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-12-10 19:56:22,031 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.businessinsider.com?IR=C
+Code : 200
+Request time : 0.398740053177
+Bs time : 0.33184504509
+2018-12-10 19:56:22,031 INFO:Scrapping : https://www.businessinsider.com/trump-trade-war-us-companies-pay-record-tariffs-2018-12
+2018-12-10 19:56:22,032 DEBUG:[writeSocket - client.py, 259] Sending 2639 bytes to server
+2018-12-10 19:56:22,032 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:22,033 DEBUG:[writeSocket - client.py, 259] Sending 5394 bytes to server
+2018-12-10 19:56:22,033 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:22,082 DEBUG:[readSocket - client.py, 270] Receiving 241 bytes from server
+2018-12-10 19:56:22,082 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com/author/akin-oyedele
+2018-12-10 19:56:22,082 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:22,777 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-12-10 19:56:22,777 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.businessinsider.com/trump-trade-war-us-companies-pay-record-tariffs-2018-12
+Code : 200
+Request time : 0.348029136658
+Bs time : 0.397053956985
+2018-12-10 19:56:22,777 INFO:Scrapping : https://www.businessinsider.com/author/amir-ismael
+2018-12-10 19:56:22,778 DEBUG:[writeSocket - client.py, 259] Sending 1296 bytes to server
+2018-12-10 19:56:22,778 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:22,779 DEBUG:[writeSocket - client.py, 259] Sending 4321 bytes to server
+2018-12-10 19:56:22,779 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:22,836 DEBUG:[readSocket - client.py, 270] Receiving 294 bytes from server
+2018-12-10 19:56:22,836 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com/ubs-report-married-filers-bigger-federal-tax-refund-tax-day-2019-2018-12
+2018-12-10 19:56:22,836 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:23,530 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-12-10 19:56:23,530 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.businessinsider.com/author/amir-ismael
+Code : 200
+Request time : 0.395118951797
+Bs time : 0.354645013809
+2018-12-10 19:56:23,530 INFO:Scrapping : https://www.businessinsider.com/author/bob-bryan
+2018-12-10 19:56:23,531 DEBUG:[writeSocket - client.py, 259] Sending 4277 bytes to server
+2018-12-10 19:56:23,532 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:23,533 DEBUG:[writeSocket - client.py, 259] Sending 6929 bytes to server
+2018-12-10 19:56:23,533 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:23,589 DEBUG:[readSocket - client.py, 270] Receiving 225 bytes from server
+2018-12-10 19:56:23,590 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com.au/
+2018-12-10 19:56:23,591 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:24,210 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-12-10 19:56:24,210 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.businessinsider.com/author/bob-bryan
+Code : 200
+Request time : 0.381701231003
+Bs time : 0.295083999634
+2018-12-10 19:56:24,210 INFO:Scrapping : https://www.businessinsider.com/author/graham-rapier
+2018-12-10 19:56:24,211 DEBUG:[writeSocket - client.py, 259] Sending 4956 bytes to server
+2018-12-10 19:56:24,211 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:24,212 DEBUG:[writeSocket - client.py, 259] Sending 7605 bytes to server
+2018-12-10 19:56:24,212 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:24,282 DEBUG:[readSocket - client.py, 270] Receiving 297 bytes from server
+2018-12-10 19:56:24,282 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com/stock-market-investing-tips-for-volatility-lori-heinel-state-street-2018-12
+2018-12-10 19:56:24,282 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:24,917 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-12-10 19:56:24,917 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.businessinsider.com/author/graham-rapier
+Code : 200
+Request time : 0.356823921204
+Bs time : 0.34645819664
+2018-12-10 19:56:24,917 DEBUG:[writeSocket - client.py, 259] Sending 5201 bytes to server
+2018-12-10 19:56:24,918 INFO:Scrapping : https://www.businessinsider.com/author/matthew-debord
+2018-12-10 19:56:24,918 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:24,919 DEBUG:[writeSocket - client.py, 259] Sending 7855 bytes to server
+2018-12-10 19:56:24,919 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:24,975 DEBUG:[readSocket - client.py, 270] Receiving 243 bytes from server
+2018-12-10 19:56:24,975 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com/author/abby-narishkin
+2018-12-10 19:56:24,976 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:25,697 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-12-10 19:56:25,697 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.businessinsider.com/author/matthew-debord
+Code : 200
+Request time : 0.390060901642
+Bs time : 0.386572122574
+2018-12-10 19:56:25,697 INFO:Scrapping : https://www.businessinsider.com/author/akin-oyedele
+2018-12-10 19:56:25,698 DEBUG:[writeSocket - client.py, 259] Sending 4462 bytes to server
+2018-12-10 19:56:25,698 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:25,699 DEBUG:[writeSocket - client.py, 259] Sending 7117 bytes to server
+2018-12-10 19:56:25,700 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:25,758 DEBUG:[readSocket - client.py, 270] Receiving 239 bytes from server
+2018-12-10 19:56:25,758 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com/author/emma-court
+2018-12-10 19:56:25,758 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:26,413 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-12-10 19:56:26,414 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.businessinsider.com/author/akin-oyedele
+Code : 200
+Request time : 0.376304149628
+Bs time : 0.33634185791
+2018-12-10 19:56:26,414 DEBUG:[writeSocket - client.py, 259] Sending 4894 bytes to server
+2018-12-10 19:56:26,415 INFO:Scrapping : https://www.businessinsider.com/ubs-report-married-filers-bigger-federal-tax-refund-tax-day-2019-2018-12
+2018-12-10 19:56:26,415 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:26,416 DEBUG:[writeSocket - client.py, 259] Sending 7541 bytes to server
+2018-12-10 19:56:26,416 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:26,481 DEBUG:[readSocket - client.py, 270] Receiving 291 bytes from server
+2018-12-10 19:56:26,481 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com/youngest-female-broker-diversity-new-york-stock-exchange-nyse-2018-11
+2018-12-10 19:56:26,481 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-12-10 19:56:27,218 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-12-10 19:56:27,218 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.businessinsider.com/ubs-report-married-filers-bigger-federal-tax-refund-tax-day-2019-2018-12
+Code : 200
+Request time : 0.377656936646
+Bs time : 0.424585103989
+2018-12-10 19:56:27,218 INFO:Scrapping : https://www.businessinsider.com.au/
+2018-12-10 19:56:27,219 DEBUG:[writeSocket - client.py, 259] Sending 1312 bytes to server
+2018-12-10 19:56:27,219 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:27,219 DEBUG:[writeSocket - client.py, 259] Sending 4357 bytes to server
+2018-12-10 19:56:27,219 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-12-10 19:56:27,265 DEBUG:[readSocket - client.py, 270] Receiving 267 bytes from server
+2018-12-10 19:56:27,265 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.businessinsider.com/gilead-new-ceo-daniel-oday-challenges-2018-12
+2018-12-10 19:56:27,265 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL

@@ -1,0 +1,7 @@
+2018-12-10 18:29:50,121 DEBUG:[connect - client.py, 44] Socket initialization
+2018-12-10 18:29:50,121 DEBUG:[connect - client.py, 44] Connecting to host... [127.0.0.1:5050]
+2018-12-10 18:29:50,121 INFO:Connection failed to [127.0.0.1:5050]
+2018-12-10 18:29:50,121 INFO:Retrying in 3 seconds.
+2018-12-10 18:29:53,124 DEBUG:[connect - client.py, 44] Connecting to host... [127.0.0.1:5050]
+2018-12-10 18:29:53,124 INFO:Connection failed to [127.0.0.1:5050]
+2018-12-10 18:29:53,124 INFO:Retrying in 3 seconds.

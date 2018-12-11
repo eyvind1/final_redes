@@ -1,0 +1,413 @@
+2018-12-10 19:01:32,251 DEBUG:[setup - server.py, 52] Socket initialization
+2018-12-10 19:01:32,251 INFO:Listening on [127.0.0.1:5050]
+2018-12-10 19:01:32,251 INFO:Waiting for working nodes to connect...
+2018-12-10 19:01:34,492 INFO:[127.0.0.1:38950] Working node connected
+2018-12-10 19:01:34,492 DEBUG:[run - server.py, 64] Starting beginCrawlingProcedure
+2018-12-10 19:01:34,492 DEBUG:[sendConfig - server.py, 216] [127.0.0.1:38950] Sending configuration
+2018-12-10 19:01:34,492 INFO:Starting server urlDispatcher
+2018-12-10 19:01:34,493 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 6743 bytes
+2018-12-10 19:01:34,493 INFO:Starting server mainRoutine
+2018-12-10 19:01:34,493 DEBUG:[sendConfig - server.py, 216] [127.0.0.1:38950] Configuration sent waiting for ACK
+2018-12-10 19:01:34,493 INFO:Starting server storageRoutine
+2018-12-10 19:01:34,497 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 129 bytes
+2018-12-10 19:01:34,497 DEBUG:[sendConfig - server.py, 216] [127.0.0.1:38950] Working node ACK received (configuration)
+2018-12-10 19:01:34,498 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 237 bytes
+2018-12-10 19:01:34,498 DEBUG:[inputThread - server.py, 240] [127.0.0.1:38950] Listening for packets
+2018-12-10 19:01:34,498 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL http://www.businessinsider.com/
+2018-12-10 19:01:36,217 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 2623 bytes
+2018-12-10 19:01:36,218 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:36,218 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   33  /    0    -   0  
+2018-12-10 19:01:36,219 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 269 bytes
+2018-12-10 19:01:36,219 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/best-green-monday-sales-2018-12
+2018-12-10 19:01:36,219 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 251 bytes
+2018-12-10 19:01:36,219 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/international
+2018-12-10 19:01:36,219 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 281 bytes
+2018-12-10 19:01:36,219 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/hedge-fund-david-abrams-career-advice-12-18
+2018-12-10 19:01:36,220 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 259 bytes
+2018-12-10 19:01:36,220 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/author/mariana-alfaro
+2018-12-10 19:01:36,220 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 307 bytes
+2018-12-10 19:01:36,220 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/henry-blodget-ignition-keynote-on-better-capitalism-takeaways-2018-12
+2018-12-10 19:01:36,221 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 5375 bytes
+2018-12-10 19:01:36,269 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:36,269 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:36,269 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttp://www.businessinsider.com/
+2018-12-10 19:01:36,269 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:36,281 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 246 bytes
+2018-12-10 19:01:36,281 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com.pl/?IR=C
+2018-12-10 19:01:37,140 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 531 bytes
+2018-12-10 19:01:37,141 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:37,141 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   6   /    33   -   0  
+2018-12-10 19:01:37,184 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 3522 bytes
+2018-12-10 19:01:37,185 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:37,185 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:37,185 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/best-green-monday-sales-2018-12
+2018-12-10 19:01:37,185 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:37,215 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 259 bytes
+2018-12-10 19:01:37,215 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/author/rachel-premack
+2018-12-10 19:01:37,845 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 2565 bytes
+2018-12-10 19:01:37,845 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:37,845 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   31  /    39   -   0  
+2018-12-10 19:01:37,888 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 5327 bytes
+2018-12-10 19:01:37,888 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:37,889 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:37,889 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/international
+2018-12-10 19:01:37,889 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:37,907 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 261 bytes
+2018-12-10 19:01:37,907 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/author/catalina-gonella
+2018-12-10 19:01:38,559 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 373 bytes
+2018-12-10 19:01:38,559 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:38,559 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   3   /    62   -   0  
+2018-12-10 19:01:38,600 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 3377 bytes
+2018-12-10 19:01:38,600 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:38,601 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:38,601 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/hedge-fund-david-abrams-career-advice-12-18
+2018-12-10 19:01:38,601 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:38,630 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 254 bytes
+2018-12-10 19:01:38,630 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/author/gina-heeb
+2018-12-10 19:01:39,098 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 1373 bytes
+2018-12-10 19:01:39,099 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:39,099 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   14  /    63   -   0  
+2018-12-10 19:01:39,140 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 3989 bytes
+2018-12-10 19:01:39,140 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:39,141 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:39,141 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/author/mariana-alfaro
+2018-12-10 19:01:39,141 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:39,142 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 242 bytes
+2018-12-10 19:01:39,142 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com?IR=C
+2018-12-10 19:01:39,812 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 501 bytes
+2018-12-10 19:01:39,813 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:39,813 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   6   /    68   -   0  
+2018-12-10 19:01:39,856 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 3533 bytes
+2018-12-10 19:01:39,856 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:39,857 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:39,857 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/henry-blodget-ignition-keynote-on-better-capitalism-takeaways-2018-12
+2018-12-10 19:01:39,857 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:39,865 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 293 bytes
+2018-12-10 19:01:39,865 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/trump-trade-war-us-companies-pay-record-tariffs-2018-12
+2018-12-10 19:01:44,819 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 182 bytes
+2018-12-10 19:01:44,820 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:44,820 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   0   /    71   -   0  
+2018-12-10 19:01:44,860 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 3677 bytes
+2018-12-10 19:01:44,861 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:44,861 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:44,861 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com.pl/?IR=C
+2018-12-10 19:01:44,861 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:44,861 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 256 bytes
+2018-12-10 19:01:44,862 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/author/amir-ismael
+2018-12-10 19:01:45,495 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 5100 bytes
+2018-12-10 19:01:45,496 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:45,496 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   56  /    71   -   0  
+2018-12-10 19:01:45,536 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 7760 bytes
+2018-12-10 19:01:45,536 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:45,537 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:45,537 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/author/rachel-premack
+2018-12-10 19:01:45,537 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:45,554 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 254 bytes
+2018-12-10 19:01:45,554 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/author/bob-bryan
+2018-12-10 19:01:46,152 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 2337 bytes
+2018-12-10 19:01:46,153 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:46,153 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   27  /   118   -   0  
+2018-12-10 19:01:46,196 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 4969 bytes
+2018-12-10 19:01:46,196 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:46,197 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:46,197 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/author/catalina-gonella
+2018-12-10 19:01:46,197 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:46,217 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 258 bytes
+2018-12-10 19:01:46,217 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/author/graham-rapier
+2018-12-10 19:01:46,841 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 768 bytes
+2018-12-10 19:01:46,841 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:46,842 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   9   /   135   -   0  
+2018-12-10 19:01:46,884 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 3374 bytes
+2018-12-10 19:01:46,885 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:46,885 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:46,885 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/author/gina-heeb
+2018-12-10 19:01:46,885 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:46,909 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 259 bytes
+2018-12-10 19:01:46,910 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/author/matthew-debord
+2018-12-10 19:01:47,504 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 2623 bytes
+2018-12-10 19:01:47,505 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:47,505 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   33  /   136   -   0  
+2018-12-10 19:01:47,548 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 5378 bytes
+2018-12-10 19:01:47,549 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:47,549 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:47,549 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com?IR=C
+2018-12-10 19:01:47,549 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:47,572 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 257 bytes
+2018-12-10 19:01:47,572 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/author/akin-oyedele
+2018-12-10 19:01:48,277 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 1280 bytes
+2018-12-10 19:01:48,278 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:48,278 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   14  /   136   -   0  
+2018-12-10 19:01:48,320 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 4300 bytes
+2018-12-10 19:01:48,320 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:48,321 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:48,321 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/trump-trade-war-us-companies-pay-record-tariffs-2018-12
+2018-12-10 19:01:48,321 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:48,325 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 310 bytes
+2018-12-10 19:01:48,325 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/ubs-report-married-filers-bigger-federal-tax-refund-tax-day-2019-2018-12
+2018-12-10 19:01:48,996 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 4261 bytes
+2018-12-10 19:01:48,997 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:48,997 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   52  /   148   -   0  
+2018-12-10 19:01:49,040 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 6913 bytes
+2018-12-10 19:01:49,041 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:49,041 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:49,041 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/author/amir-ismael
+2018-12-10 19:01:49,041 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:49,047 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 241 bytes
+2018-12-10 19:01:49,048 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com.au/
+2018-12-10 19:01:49,716 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 4940 bytes
+2018-12-10 19:01:49,717 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:49,717 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   51  /   191   -   0  
+2018-12-10 19:01:49,760 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 7587 bytes
+2018-12-10 19:01:49,761 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:49,761 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:49,761 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/author/bob-bryan
+2018-12-10 19:01:49,761 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:49,770 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 313 bytes
+2018-12-10 19:01:49,770 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/stock-market-investing-tips-for-volatility-lori-heinel-state-street-2018-12
+2018-12-10 19:01:50,444 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 5185 bytes
+2018-12-10 19:01:50,444 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:50,444 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   50  /   229   -   0  
+2018-12-10 19:01:50,484 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 7838 bytes
+2018-12-10 19:01:50,485 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:50,485 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:50,485 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/author/graham-rapier
+2018-12-10 19:01:50,485 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:50,493 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 259 bytes
+2018-12-10 19:01:50,493 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/author/abby-narishkin
+2018-12-10 19:01:51,122 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 4446 bytes
+2018-12-10 19:01:51,123 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:51,123 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   50  /   270   -   0  
+2018-12-10 19:01:51,164 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 7097 bytes
+2018-12-10 19:01:51,164 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:51,165 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:51,165 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/author/matthew-debord
+2018-12-10 19:01:51,165 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:51,185 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 255 bytes
+2018-12-10 19:01:51,186 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/author/emma-court
+2018-12-10 19:01:51,800 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 4878 bytes
+2018-12-10 19:01:51,800 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:51,800 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   45  /   311   -   0  
+2018-12-10 19:01:51,840 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 7524 bytes
+2018-12-10 19:01:51,841 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:51,841 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:51,841 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/author/akin-oyedele
+2018-12-10 19:01:51,841 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:51,848 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 307 bytes
+2018-12-10 19:01:51,848 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/youngest-female-broker-diversity-new-york-stock-exchange-nyse-2018-11
+2018-12-10 19:01:52,565 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 1296 bytes
+2018-12-10 19:01:52,566 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:52,566 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   14  /   347   -   0  
+2018-12-10 19:01:52,608 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 4340 bytes
+2018-12-10 19:01:52,608 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:52,609 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:52,609 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/ubs-report-married-filers-bigger-federal-tax-refund-tax-day-2019-2018-12
+2018-12-10 19:01:52,609 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:52,631 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 283 bytes
+2018-12-10 19:01:52,631 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/gilead-new-ceo-daniel-oday-challenges-2018-12
+2018-12-10 19:01:52,761 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 519 bytes
+2018-12-10 19:01:52,761 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:52,762 INFO:[127.0.0.1:38950] Skipped (request not allowed - robot parser) : https://www.businessinsider.com.au/
+2018-12-10 19:01:52,782 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 264 bytes
+2018-12-10 19:01:52,782 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/author/antonio-villas-boas
+2018-12-10 19:01:53,591 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 865 bytes
+2018-12-10 19:01:53,591 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:53,591 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   7   /   359   -   1  
+2018-12-10 19:01:53,632 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 3904 bytes
+2018-12-10 19:01:53,632 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:53,633 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:53,633 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/stock-market-investing-tips-for-volatility-lori-heinel-state-street-2018-12
+2018-12-10 19:01:53,633 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:53,655 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 256 bytes
+2018-12-10 19:01:53,655 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/author/andy-kiersz
+2018-12-10 19:01:54,313 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 5336 bytes
+2018-12-10 19:01:54,314 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:54,314 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   71  /   359   -   1  
+2018-12-10 19:01:54,356 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 8014 bytes
+2018-12-10 19:01:54,357 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:54,357 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:54,357 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/author/abby-narishkin
+2018-12-10 19:01:54,357 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:54,378 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 259 bytes
+2018-12-10 19:01:54,378 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/author/bradley-saacks
+2018-12-10 19:01:54,846 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 1251 bytes
+2018-12-10 19:01:54,846 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:54,846 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   14  /   420   -   1  
+2018-12-10 19:01:54,888 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 3863 bytes
+2018-12-10 19:01:54,889 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:54,889 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:54,889 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/author/emma-court
+2018-12-10 19:01:54,889 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:54,890 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 307 bytes
+2018-12-10 19:01:54,890 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/next-trump-white-house-chief-of-staff-john-kelly-replacements-2018-12
+2018-12-10 19:01:55,591 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 683 bytes
+2018-12-10 19:01:55,591 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:55,591 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   8   /   425   -   1  
+2018-12-10 19:01:55,632 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 3720 bytes
+2018-12-10 19:01:55,632 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:55,633 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:55,633 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/youngest-female-broker-diversity-new-york-stock-exchange-nyse-2018-11
+2018-12-10 19:01:55,633 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:55,642 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 297 bytes
+2018-12-10 19:01:55,643 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/ceo-pay-vs-typical-worker-amazon-mcdonalds-facebook-2018-12
+2018-12-10 19:01:56,301 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 719 bytes
+2018-12-10 19:01:56,301 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:56,301 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   6   /   431   -   1  
+2018-12-10 19:01:56,344 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 3725 bytes
+2018-12-10 19:01:56,344 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:56,345 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:56,345 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/gilead-new-ceo-daniel-oday-challenges-2018-12
+2018-12-10 19:01:56,345 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:56,366 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 287 bytes
+2018-12-10 19:01:56,366 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/fast-food-raise-wages-find-more-employees-2018-11
+2018-12-10 19:01:56,994 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 4537 bytes
+2018-12-10 19:01:56,994 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:56,994 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   49  /   435   -   1  
+2018-12-10 19:01:57,036 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 7192 bytes
+2018-12-10 19:01:57,037 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:57,037 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:57,037 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/author/antonio-villas-boas
+2018-12-10 19:01:57,037 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:57,058 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 312 bytes
+2018-12-10 19:01:57,059 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/lyft-may-be-worth-20-billion-how-to-value-the-company-ahead-of-ipo-2018-12
+2018-12-10 19:01:57,753 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 4735 bytes
+2018-12-10 19:01:57,754 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:57,754 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   58  /   475   -   1  
+2018-12-10 19:01:57,796 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 7393 bytes
+2018-12-10 19:01:57,797 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:57,797 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:57,797 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/author/andy-kiersz
+2018-12-10 19:01:57,797 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:57,811 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 255 bytes
+2018-12-10 19:01:57,811 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/better-capitalism
+2018-12-10 19:01:58,320 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 1231 bytes
+2018-12-10 19:01:58,321 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:58,321 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   14  /   522   -   1  
+2018-12-10 19:01:58,364 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 3846 bytes
+2018-12-10 19:01:58,364 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:58,365 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:58,365 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/author/bradley-saacks
+2018-12-10 19:01:58,365 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:58,384 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 309 bytes
+2018-12-10 19:01:58,384 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/huawei-smartphones-are-popular-all-over-world-not-united-states-2018-12
+2018-12-10 19:01:59,085 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 484 bytes
+2018-12-10 19:01:59,085 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:59,085 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   4   /   526   -   1  
+2018-12-10 19:01:59,128 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 3512 bytes
+2018-12-10 19:01:59,128 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:59,129 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:59,129 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/next-trump-white-house-chief-of-staff-john-kelly-replacements-2018-12
+2018-12-10 19:01:59,129 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:59,136 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 288 bytes
+2018-12-10 19:01:59,137 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/porsche-911-cup-holder-great-piece-engineer-2016-8
+2018-12-10 19:01:59,869 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 492 bytes
+2018-12-10 19:01:59,869 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:59,869 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   5   /   528   -   1  
+2018-12-10 19:01:59,912 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 3513 bytes
+2018-12-10 19:01:59,912 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:01:59,913 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:01:59,913 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/ceo-pay-vs-typical-worker-amazon-mcdonalds-facebook-2018-12
+2018-12-10 19:01:59,913 ERROR:Unhandled exception in storage.py
+2018-12-10 19:01:59,919 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 270 bytes
+2018-12-10 19:01:59,920 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/category/black-friday-2018-deals
+2018-12-10 19:02:00,643 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 866 bytes
+2018-12-10 19:02:00,643 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:02:00,643 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   9   /   529   -   1  
+2018-12-10 19:02:00,684 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 3880 bytes
+2018-12-10 19:02:00,685 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:02:00,685 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:02:00,685 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/fast-food-raise-wages-find-more-employees-2018-11
+2018-12-10 19:02:00,685 ERROR:Unhandled exception in storage.py
+2018-12-10 19:02:00,703 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 249 bytes
+2018-12-10 19:02:00,703 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL http://www.businessinsider.com/insiderpicks
+2018-12-10 19:02:01,398 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 1252 bytes
+2018-12-10 19:02:01,399 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:02:01,399 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   13  /   535   -   1  
+2018-12-10 19:02:01,440 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 4295 bytes
+2018-12-10 19:02:01,440 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:02:01,441 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:02:01,441 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/lyft-may-be-worth-20-billion-how-to-value-the-company-ahead-of-ipo-2018-12
+2018-12-10 19:02:01,441 ERROR:Unhandled exception in storage.py
+2018-12-10 19:02:01,456 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 250 bytes
+2018-12-10 19:02:01,456 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL http://www.businessinsider.com/international
+2018-12-10 19:02:01,864 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 2692 bytes
+2018-12-10 19:02:01,864 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:02:01,865 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   33  /   543   -   1  
+2018-12-10 19:02:01,908 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 5697 bytes
+2018-12-10 19:02:01,909 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:02:01,909 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:02:01,909 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/better-capitalism
+2018-12-10 19:02:01,909 ERROR:Unhandled exception in storage.py
+2018-12-10 19:02:01,937 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 242 bytes
+2018-12-10 19:02:01,938 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL http://www.businessinsider.com/?IR=C
+2018-12-10 19:02:02,623 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 1636 bytes
+2018-12-10 19:02:02,623 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:02:02,624 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   18  /   569   -   1  
+2018-12-10 19:02:02,664 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 4678 bytes
+2018-12-10 19:02:02,664 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:02:02,665 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:02:02,665 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/huawei-smartphones-are-popular-all-over-world-not-united-states-2018-12
+2018-12-10 19:02:02,665 ERROR:Unhandled exception in storage.py
+2018-12-10 19:02:02,691 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 262 bytes
+2018-12-10 19:02:02,691 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/category/gift-guide-2018
+2018-12-10 19:02:03,391 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 524 bytes
+2018-12-10 19:02:03,391 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:02:03,391 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   5   /   584   -   1  
+2018-12-10 19:02:03,432 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 3532 bytes
+2018-12-10 19:02:03,432 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:02:03,433 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:02:03,433 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/porsche-911-cup-holder-great-piece-engineer-2016-8
+2018-12-10 19:02:03,433 ERROR:Unhandled exception in storage.py
+2018-12-10 19:02:03,443 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 270 bytes
+2018-12-10 19:02:03,444 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/category/cyber-monday-2018-deals
+2018-12-10 19:02:04,049 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 4723 bytes
+2018-12-10 19:02:04,049 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:02:04,049 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   57  /   587   -   1  
+2018-12-10 19:02:04,092 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 7398 bytes
+2018-12-10 19:02:04,093 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:02:04,093 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:02:04,093 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/category/black-friday-2018-deals
+2018-12-10 19:02:04,093 ERROR:Unhandled exception in storage.py
+2018-12-10 19:02:04,106 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 256 bytes
+2018-12-10 19:02:04,106 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/author/alan-dawson
+2018-12-10 19:02:05,055 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 3083 bytes
+2018-12-10 19:02:05,055 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:02:05,055 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   42  /   623   -   1  
+2018-12-10 19:02:05,096 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 5850 bytes
+2018-12-10 19:02:05,096 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:02:05,097 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:02:05,097 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttp://www.businessinsider.com/insiderpicks
+2018-12-10 19:02:05,097 ERROR:Unhandled exception in storage.py
+2018-12-10 19:02:05,100 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 292 bytes
+2018-12-10 19:02:05,100 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/google-plus-early-shut-down-second-data-breach-2018-12
+2018-12-10 19:02:05,971 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 2565 bytes
+2018-12-10 19:02:05,972 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:02:05,972 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   31  /   648   -   1  
+2018-12-10 19:02:06,012 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 5322 bytes
+2018-12-10 19:02:06,013 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:02:06,013 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:02:06,013 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttp://www.businessinsider.com/international
+2018-12-10 19:02:06,013 ERROR:Unhandled exception in storage.py
+2018-12-10 19:02:06,033 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 258 bytes
+2018-12-10 19:02:06,034 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/author/mark-matousek
+2018-12-10 19:02:06,875 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 2623 bytes
+2018-12-10 19:02:06,876 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:02:06,876 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   33  /   648   -   1  
+2018-12-10 19:02:06,916 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 5376 bytes
+2018-12-10 19:02:06,917 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:02:06,917 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:02:06,917 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttp://www.businessinsider.com/?IR=C
+2018-12-10 19:02:06,917 ERROR:Unhandled exception in storage.py
+2018-12-10 19:02:06,937 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 285 bytes
+2018-12-10 19:02:06,937 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/elon-musk-reveals-teslas-alternate-name-2018-12
+2018-12-10 19:02:07,603 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 4194 bytes
+2018-12-10 19:02:07,604 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:02:07,604 INFO:[127.0.0.1:38950] Receiving scrapped URLs :   58  /   648   -   1  
+2018-12-10 19:02:07,644 DEBUG:[readSocket - server.py, 323] [127.0.0.1:38950] Receiving 6860 bytes
+2018-12-10 19:02:07,645 DEBUG:[dispatcher - server.py, 269] Dispatching packet of type: URL
+2018-12-10 19:02:07,645 INFO:[127.0.0.1:38950] Receiving scrapped data
+2018-12-10 19:02:07,645 DEBUG:[dispatcher - server.py, 269] [127.0.0.1:38950] Receiving scrapped datahttps://www.businessinsider.com/category/gift-guide-2018
+2018-12-10 19:02:07,646 ERROR:Unhandled exception in storage.py
+2018-12-10 19:02:07,660 DEBUG:[writeSocket - server.py, 315] [127.0.0.1:38950] Sending 305 bytes
+2018-12-10 19:02:07,660 DEBUG:[outputThread - server.py, 253] [127.0.0.1:38950] Sending URL https://www.businessinsider.com/theresa-may-delay-brexit-vote-amid-fears-of-crushing-defeat-2018-12
+2018-12-10 19:02:08,172 INFO:[127.0.0.1:38950] Lost connection
+2018-12-10 19:02:08,436 INFO:[127.0.0.1:38950] Disconnecting
